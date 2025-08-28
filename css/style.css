@@ -6,14 +6,14 @@
         padding: 20px 10px;
     }
     .navBarHeader img{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         margin: 0;
         padding: 0;
     }
     .header_logo{
-        font-size: 1rem;
-        line-height: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.1rem;
         margin-left: 5px;
     }
     #nav_right{
@@ -24,7 +24,7 @@
         font-size: 12px;
     }
     #nav_right > div{
-        width: 50px;
+        width: 70px;
     }
     #nav_right img{
         width: 20px;
