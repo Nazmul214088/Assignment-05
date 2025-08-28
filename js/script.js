@@ -319,7 +319,6 @@ document.getElementById('btn_copy').addEventListener('click',function(){
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_police').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_police').innerText;
@@ -329,7 +328,6 @@ document.getElementById('btn_copy_police').addEventListener('click',function(){
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_fire').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_fire').innerText;
@@ -339,7 +337,6 @@ document.getElementById('btn_copy_fire').addEventListener('click',function(){
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_ambulance').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_ambulance').innerText;
@@ -349,7 +346,6 @@ document.getElementById('btn_copy_ambulance').addEventListener('click',function(
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_women').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_women').innerText;
@@ -359,7 +355,6 @@ document.getElementById('btn_copy_women').addEventListener('click',function(){
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_anti_Corruption').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_anti_Corruption').innerText;
@@ -369,17 +364,15 @@ document.getElementById('btn_copy_anti_Corruption').addEventListener('click',fun
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_electricity').addEventListener('click',function(){
-    const current_copy = parseInt(document.getElementById('current_copy_electricity').innerText);
-    const service_number = document.getElementById('service_number').innerText;
+    const current_copy = parseInt(document.getElementById('current_copy').innerText);
+    const service_number = document.getElementById('service_number_electricity').innerText;
 
     document.getElementById('current_copy').innerText = current_copy + 1;
     navigator.clipboard.writeText(service_number);
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_brac').addEventListener('click',function(){
     const current_copy = parseInt(document.getElementById('current_copy').innerText);
     const service_number = document.getElementById('service_number_brac').innerText;
@@ -389,14 +382,14 @@ document.getElementById('btn_copy_brac').addEventListener('click',function(){
     alert(`The number has been copied: ${service_number}`);
 
 });
-
 document.getElementById('btn_copy_Railway').addEventListener('click',function(){
-    const current_copy = parseInt(document.getElementById('current_copy_Railway').innerText);
-    const service_number = document.getElementById('service_number_Railway').innerText;
+    const current_copy = parseInt(document.getElementById('current_copy').innerText);
+    const serviceNumber = document.getElementById('service_number_Railway').innerText;
+
 
     document.getElementById('current_copy').innerText = current_copy + 1;
-    navigator.clipboard.writeText(service_number);
-    alert(`The number has been copied: ${service_number}`);
+    navigator.clipboard.writeText(serviceNumber);
+    alert(`The number has been copied: ${serviceNumber}`);
 
 });
 
