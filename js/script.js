@@ -10,3 +10,10 @@ for(let i = 0; i<clickHeart.length; i++){
     });
 
 }
+
+// clear button function 
+document.getElementById('btn_clear').addEventListener('click', function(){
+    const parent = document.getElementById('history_container');
+    console.log(parent);
+    parent.innerHTML = '';
+});
