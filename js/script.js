@@ -390,7 +390,6 @@ document.getElementById('btn_copy_Railway').addEventListener('click',function(){
     document.getElementById('current_copy').innerText = current_copy + 1;
     navigator.clipboard.writeText(serviceNumber);
     alert(`The number has been copied: ${serviceNumber}`);
-
 });
 
 
