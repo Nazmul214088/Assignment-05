@@ -28,12 +28,12 @@
 <body class="bg-[#dfefff]">
     <header>
         <nav class="navBar flex justify-between pl-3 pr-3 bg-[#fff]">
-            <div class=" flex justify-center items-center">
+            <div class="navBarHeader flex justify-center items-center">
                 <img class=" mr-[10px] mt-[25px] mb-[25px] h-[50px] w-[50px]" src="./assets/logo.png" alt="">
-                <h3 class=" text-[#006747] text-[1.5rem] font-bold leading-[24px]">Emergency <br>Service</h3>
+                <h3 class="header_logo text-[#006747] text-[1.5rem] font-bold leading-[24px]">Emergency <br>Service</h3>
             </div>
 
-            <div class=" flex gap-[15px] justify-center items-center">
+            <div id="nav_right" class="flex gap-[15px] justify-center items-center">
                <div class="sm:w-[6rem] flex justify-center items-center w-[110px] p-2 bg-[#41ff6b1a] rounded-[20px] gap-3">
                     <h3 id="current_heart">0</h3>
                     <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
@@ -43,7 +43,7 @@
                     <img class="w-[30px] h-[30px]" src="./assets/coin.png">
                </div>
                <div>
-                    <button class="sm:w-[6rem] w-[110px] p-2 bg-[#00A63E] rounded-[20px] gap-3 text-[#fff] text-[1rem] font-semibold"><span id="current_copy">0 </span> Copy</button>
+                    <button id="cBTN" class="sm:w-[6rem] w-[110px] p-2 bg-[#00A63E] rounded-[20px] gap-3 text-[#fff] text-[1rem] font-semibold"><span id="current_copy">0 </span> Copy</button>
                </div>
             </div>
         </nav>

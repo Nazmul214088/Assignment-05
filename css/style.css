@@ -1,14 +1,44 @@
 
 /* Small devices lay out */
 @media screen and (max-width: 640px) {
-    .width{
-        width: 95px;
+    .navBar{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .navBarHeader img{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .header_logo{
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-left: 5px;
+    }
+    #nav_right{
+        gap: 5px;
+    }
+    #cBTN{
+        width: 60px;
+        font-size: 12px;
+    }
+    #nav_right > div{
+        width: 50px;
+    }
+    #nav_right img{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    #banner{
+        width: 100%;
     }
     #banner h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     #banner p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
 
@@ -22,6 +52,5 @@
     .side_bar{
         display: grid;
         grid-template-columns: 1fr;
-        justify-items: center;
     }
 }
