@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 /* Small devices lay out */
 @media screen and (max-width: 640px) {
     .navBar{
@@ -6,8 +8,8 @@
         padding: 20px 10px;
     }
     .navBarHeader img{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         margin: 0;
         padding: 0;
     }
@@ -33,6 +35,11 @@
     }
     #banner{
         width: 100%;
+        padding: 20px 10px;
+    }
+    #banner img{
+        height: 70px;
+        width: 70px;
     }
     #banner h2{
         font-size: 1.2rem;
@@ -40,17 +47,30 @@
     #banner p{
         font-size: 0.8rem;
     }
-
+/* card container */
+     #cardContainer{
+        width: 100%;
+        margin-left: 3%;
+        grid-template-columns: 1fr;
+    }
+    
+/* card start */
+    .card{
+    width: 100%;
+    }
+    
+   .btn_down button{
+        width: 140px;
+    }
+/* card end */
 
     .main_section{
         grid-template-columns: 1fr;
+        margin: 0;
     }
-    #cardContainer{
-        grid-template-columns: 1fr;
-        justify-items: center; 
-    }
+   
     .side_bar{
-        display: grid;
-        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 3%;
     }
 }

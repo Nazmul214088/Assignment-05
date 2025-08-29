@@ -48,18 +48,18 @@
             </div>
         </nav>
 
-        <section id="banner" class="bg-[linear-gradient(90deg,rgba(1,49,35,1),rgba(0,103,71,1)_50%,rgba(1,50,35,1)_100%)] text-[#fff] grid justify-items-center p-[10px]">
+        <div id="banner" class="bg-[linear-gradient(90deg,rgba(1,49,35,1),rgba(0,103,71,1)_50%,rgba(1,50,35,1)_100%)] text-[#fff] grid justify-items-center p-[20px]">
             <img class="w-[90px] h-[90px]" src="./assets/logo.png">
             <h2 class="sm:text-[2rem] md:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.5rem] font-bold font-hind">Emergency Service Directory</h2>
             <p class="sm:text-[1rem] md:text-[1rem] text-[20px] text-center font-semibold font-hind">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
-        </section>
+        </div>
     </header>
     <main class="main_section sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 2xl:grid-cols-[9fr_3fr] w-[94%] m-auto grid">
         <!-- Service container section start  -->
-        <section id="cardContainer" class="sm:grid-cols-1 sm:justify-items-center md:grid-cols-1 md:items-center lg:grid-cols-2 lg:justify-center xl:grid-cols-3 xl:justify-center grid grid-cols-3 gap-3 justify-between mt-[45px]">
+        <section id="cardContainer" class="sm:grid-cols-1 sm:justify-items-center md:grid-cols-1 md:items-center lg:grid-cols-2 lg:justify-center xl:grid-cols-3 xl:justify-center grid grid-cols-3 gap-6 justify-between mt-[45px]">
             
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/emergency.png" alt="">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -73,13 +73,13 @@
                     <h1 id="service_number" class="text-[#111111] text-2xl font-roboto font-bold mb-3">999</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">All</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/police.png">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -92,13 +92,13 @@
                     <h1 id="service_number_police" class="text-[#111111] text-2xl font-roboto font-bold mb-3">999</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Police</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_police" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_police" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/fire-service.png">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -112,13 +112,13 @@
                     <h1 id="service_number_fire" class="text-[#111111] text-2xl font-roboto font-bold mb-3">999</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Fire</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_fire" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_fire" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/ambulance.png">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -132,13 +132,13 @@
                     <h1 id="service_number_ambulance" class="text-[#111111] text-2xl font-roboto font-bold mb-3">1994-999999</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Health</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_ambulance" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_ambulance" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/heart.png">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -151,13 +151,13 @@
                     <h1 id="service_number_women" class="text-[#111111] text-2xl font-roboto font-bold mb-3">109</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Help</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_women" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_women" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/emergency.png" alt="">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -170,13 +170,13 @@
                     <h1 id="service_number_anti_Corruption" class="text-[#111111] text-2xl font-roboto font-bold mb-3">106</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Govt</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_anti_Corruption" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_anti_Corruption" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/emergency.png" alt="">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -189,13 +189,13 @@
                     <h1 id="service_number_electricity" class="text-[#111111] text-2xl font-roboto font-bold mb-3">16216</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Electricity</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_electricity" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_electricity" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/brac.png" alt="">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -209,13 +209,13 @@
                     <h1 id="service_number_brac" class="text-[#111111] text-2xl font-roboto font-bold mb-3">16445</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">NGO</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_brac" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_brac" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
     
-            <div class="rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
+            <div class="card rounded-[12px] p-8 bg-[#fff] w-[420px] h-[360px] shadow-md">
                 <div class="flex justify-between items-center mb-4">
                     <img class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-2xl p-3" src="./assets/Bangladesh-Railway.png">
                     <button class="clickHeart text-[1.5rem] cursor-pointer text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></button>
@@ -229,7 +229,7 @@
                     <h1 id="service_number_Railway" class="text-[#111111] text-2xl font-roboto font-bold mb-3">163</h1>
                     <p class="inline font-hind text-[#5C5C5C] text-[1rem] pt-[5px] pb-[5px] pl-[20px] pr-[20px] bg-[#F2F2F2] rounded-[20px]">Travel</p>
                 </div>
-                <div class=" flex justify-between">
+                <div class="btn_down flex justify-between">
                     <button id="btn_copy_Railway" class="btn text-[#5C5C5C] w-[170px] mr-2 rounded-[10px] p-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
                     <button id="call_btn_Railway" class="btn w-[170px] bg-[#00A63E] text-[#fff] rounded-[10px]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
